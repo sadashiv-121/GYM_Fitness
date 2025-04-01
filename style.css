@@ -115,31 +115,99 @@ body {
 /* End Base */
 
 /* Menu */
-
-.menu{
+.menu {
   width: 100%;
-  background: #141615;
+  background: linear-gradient(to right, #0e0e0e 70%, #142d2a);
   padding: 12px 0;
 }
-.menu-container{
+
+.menu .container {
   justify-content: space-between;
 }
-.mobile-btn{
+
+.mobile-btn {
   display: none;
 }
-.logo{
+
+.logo {
   cursor: pointer;
 }
-.logo img{
+
+.logo img {
+  width: 80px;
   height: auto;
-  width: 100px;
 }
-.nav{
+
+.nav {
   list-style: none;
 }
-.nav-item{
+
+.nav-item {
   display: inline-block;
   margin-right: 30px;
   font-size: 18px;
   font-weight: 400;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item:hover a {
+  color: #29a396;
+  transition: 0.3s linear;
+}
+
+.nav-item:last-of-type {
+  margin-right: 0;
+}
+/* End Menu */
+
+/* Buttons */
+.btn {
+  padding: 10px 28px;
+  background: var(--clr-primary);
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn:hover {
+  transition: 0.3s linear;
+  box-shadow: var(--clr-primary) 0px 5px 15px;
+}
+
+.btn-2 {
+  font-size: 35px;
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s linear;
+}
+
+.btn-2:hover {
+  color: #29a396;
+}
+
+/* End Buttons */
+
+/* Header */
+.text {
+  width: 60%;
+}
+
+.visual {
+  width: 40%;
+}
+
+.visual img {
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 70px;
+  font-weight: 700;
 }
